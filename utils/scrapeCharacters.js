@@ -10,7 +10,7 @@ module.exports = async() => {
 
   const characterLinkArray = [];
 
-  $(selecter).each((index, element) => $(element).find('li').each((_, element) => {
+  $(selecter).each((_, element) => $(element).find('li').each((_, element) => {
     if($(element).find('a').attr('href')){
       characterLinkArray.push({
         charURL: `${fandomURL}${$(element).find('a').attr('href')}`,
