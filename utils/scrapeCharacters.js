@@ -38,7 +38,7 @@ const scrapeCharacterData = async(url) => {
     personality: $('div[data-source="Personality"] > div').text(),
     species: $('div[data-source="Species"] > div').text(),
     birthday: $('div[data-source="Birthday"] > div').text(),
-    phrase: $('section > div > div').text().split('<')[0],
+    phrase: $('section > div > div').text().split('<')[0].trim(),
     skill: $('section > div[data-source="Skill"] > div').text(),
     goal: $('section > div[data-source="Goal"] > div').text(),
     coffee: $('div[data-source="Coffee"] > div').text().replace(/([”“])/g, '').split(','),
@@ -46,7 +46,8 @@ const scrapeCharacterData = async(url) => {
       name: $('div[data-source="Song"] > div > a').text(),
       link: `${fandomURL}${$('div[data-source="Song"] > div>  a').attr('href')}`
     },
-    gameAppearances: $('div[data-source="Games"] > div').text().split(','),
+    gameAppearances: $('div[data-source="Games"] > div').text().split(',').map(item => item.trim()),
+    style: $('div[data-source="Style"] > div').text() ? $('div[data-source="Style"] > div').text() : 'n/a'
   };
 };
 

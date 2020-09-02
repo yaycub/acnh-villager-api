@@ -4,7 +4,8 @@
   "description": "",
   "main": "scrapeSaga.js",
   "scripts": {
-    "test": "npm run jest"
+    "test": "jest --verbose --testLocationInResults",
+    "test:watch": "npm run test --watch"
   },
   "author": "",
   "license": "ISC",
