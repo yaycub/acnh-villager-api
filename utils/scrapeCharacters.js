@@ -29,39 +29,24 @@ const scrapeCharacterData = async(url) => {
   const html = await request.get(url);
   const $ = (args) => cheerio.load(html.text)(charDataSelector).find(args); 
 
-  const name = $('h2[data-source="name"]').text();
-  const japaneseName = $('h2[data-source="jname"]').text();
-  const image = $('figure > a').attr('href');
-  const quote = $('figure > figcaption').text().replace(/([”“])/g, '');
-  const gender = $('div[data-source="Gender"] > div').text();
-  const personality = $('div[data-source="Personality"] > div').text();
-  const species = $('div[data-source="Species"] > div').text();
-  const birthday = $('div[data-source="Birthday"] > div').text();
-  const phrase = $('section > div > div').text().split('<')[0];
-  const skill = $('section > div[data-source="Skill"] > div').text();
-  const goal = $('section > div[data-source="Goal"] > div').text();
-  const coffee = $('div[data-source="Coffee"] > div').text().replace(/([”“])/g, '').split(',');
-  const song = {
-    name: $('div[data-source="Song"] > div > a').text(),
-    link: `${fandomURL}${$('div[data-source="Song"] > div>  a').attr('href')}`
-  };
-  const gameAppearances = $('div[data-source="Games"] > div').text().split(',');
-
   return {
-    name,
-    japaneseName,
-    image,
-    quote,
-    gender,
-    personality,
-    species,
-    birthday,
-    phrase,
-    skill,
-    goal,
-    coffee,
-    song,
-    gameAppearances
+    name: $('h2[data-source="name"]').text(),
+    japaneseName: $('h2[data-source="jname"]').text(),
+    image: $('figure > a').attr('href'),
+    quote: $('figure > figcaption').text().replace(/([”“])/g, ''),
+    gender: $('div[data-source="Gender"] > div').text(),
+    personality: $('div[data-source="Personality"] > div').text(),
+    species: $('div[data-source="Species"] > div').text(),
+    birthday: $('div[data-source="Birthday"] > div').text(),
+    phrase: $('section > div > div').text().split('<')[0],
+    skill: $('section > div[data-source="Skill"] > div').text(),
+    goal: $('section > div[data-source="Goal"] > div').text(),
+    coffee: $('div[data-source="Coffee"] > div').text().replace(/([”“])/g, '').split(','),
+    song: {
+      name: $('div[data-source="Song"] > div > a').text(),
+      link: `${fandomURL}${$('div[data-source="Song"] > div>  a').attr('href')}`
+    },
+    gameAppearances: $('div[data-source="Games"] > div').text().split(','),
   };
 };
 
