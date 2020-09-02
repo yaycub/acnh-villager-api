@@ -1,5 +1,6 @@
-const scrapeCharacters = require('./utils/scrapeCharacters');
+const { scrapeAllCharacters } = require('./utils/scrapeCharacters');
 
-scrapeCharacters()
+
+scrapeAllCharacters()
   .then(console.log)
   .catch(console.log);
