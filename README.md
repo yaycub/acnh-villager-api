@@ -1,3 +1,3 @@
-# Saga Scraper
+# ~~Saga~~ AC-Villager Scraper
 
-## - Simple scraper build with Node.js and Cheerio.
+__- Simple scraper build with Node.js and Cheerio.__

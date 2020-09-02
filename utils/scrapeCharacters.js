@@ -1,23 +1,33 @@
 const request = require('superagent');
 const cheerio = require('cheerio');
 
-const fandomURL = 'https://imagecomics.fandom.com';
-const selecter = '#mw-content-text > table:nth-child(4) > tbody > tr > td > table > tbody > tr';
+const fandomURL = 'https://animalcrossing.fandom.com';
+const selecter = '#mw-content-text > table:nth-child(5) > tbody > tr:nth-child(2) > td > table > tbody';
 
-module.exports = async() => {
-  const html = await request.get(`${fandomURL}/wiki/Saga_Wiki`);
+const scrapeCharLinks = async() => {
+  const html = await request.get(`${fandomURL}/wiki/Villager_list_(New_Horizons)`);
   const $ = cheerio.load(html.text);
 
   const characterLinkArray = [];
 
-  $(selecter).each((_, element) => $(element).find('li').each((_, element) => {
-    if($(element).find('a').attr('href')){
+  $(selecter).each((_, element) => $(element).find('tr').each((_, element) => {
+    const charLink = $(element).find('a').attr('href');
+
+    if(charLink){
       characterLinkArray.push({
-        charURL: `${fandomURL}${$(element).find('a').attr('href')}`,
-        charName: $(element).find('a').text()
+        charURL: `${fandomURL}${charLink}`,
+        charName: $(element).find('a').text().split('<')[0]
       });
     }
   }));
 
-  return characterLinkArray;
+  
+
+  return characterLinkArray.slice(1, characterLinkArray.length);
+};
+
+// const relatives = $('#mw-content-text > div:nth-child(2) > div:nth-child(4) > div:nth-child(2)').text().trim().replace(',', '').split(')');
+
+module.exports = async() => {
+  return scrapeCharLinks();
 };
