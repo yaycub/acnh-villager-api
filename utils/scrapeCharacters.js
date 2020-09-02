@@ -25,12 +25,13 @@ const scrapeCharLinks = async() => {
   return characterLinkArray.slice(1, characterLinkArray.length);
 };
 
-const scrapeCharacterData = async(text) => {
+const scrapeCharacterData = async(url) => {
   try {
-    // const html = await request.get(url).retry(3);
+    const { text } = await request.get(url).retry(3);
     const $ = (args) => cheerio.load(text)(charDataSelector).find(args); 
   
     return {
+      url,
       name: $('h2[data-source="name"]').text(),
       japaneseName: $('h2[data-source="jname"]').text(),
       image: $('figure > a').attr('href'),
@@ -42,7 +43,11 @@ const scrapeCharacterData = async(text) => {
       phrase: $('section > div > div').text().split('<')[0].trim(),
       skill: $('section > div[data-source="Skill"] > div').text(),
       goal: $('section > div[data-source="Goal"] > div').text(),
-      coffee: $('div[data-source="Coffee"] > div').text().replace(/([”“])/g, '').split(','),
+      coffee: {
+        roast: $('div[data-source="Coffee"] > div').text().replace(/([”“])/g, '').split(',')[0],
+        milk: $('div[data-source="Coffee"] > div').text().replace(/([”“])/g, '').split(',')[1],
+        sugar: $('div[data-source="Coffee"] > div').text().replace(/([”“])/g, '').split(',')[2]
+      },
       song: {
         name: $('div[data-source="Song"] > div > a').text(),
         link: `${fandomURL}${$('div[data-source="Song"] > div>  a').attr('href')}`
