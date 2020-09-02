@@ -1,13 +1,5 @@
 const request = require('superagent');
 const cheerio = require('cheerio');
-const Throttle = require('superagent-throttle');
-
-const throttle = new Throttle({
-  active: true,
-  rate: 5,
-  ratePer: 10000,
-  concurrent: 2
-});
 
 const fandomURL = 'https://animalcrossing.fandom.com';
 const charLinkSelector = '#mw-content-text > table:nth-child(5) > tbody > tr:nth-child(2) > td > table > tbody';
