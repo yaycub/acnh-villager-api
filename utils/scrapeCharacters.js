@@ -15,10 +15,7 @@ const scrapeCharLinks = async() => {
     const charLink = $(element).find('a').attr('href');
 
     if(charLink){
-      characterLinkArray.push({
-        charURL: `${fandomURL}${charLink}`,
-        charName: $(element).find('a').text().split('<')[0]
-      });
+      characterLinkArray.push(`${fandomURL}${charLink}`);
     }
   }));
 
@@ -62,11 +59,9 @@ const scrapeCharacterData = async(url) => {
   
 };
 
-const scrapeAllCharacters = async() => {
-  const charLinks = await scrapeCharLinks();
-
-  return Promise.all(charLinks.map(({ charURL }) => request.get(charURL)))
-    .then(arrOfCharacters => Promise.all(arrOfCharacters.map(({ text }) => scrapeCharacterData(text))));
+const scrapeAllCharacters = () => {
+  return scrapeCharLinks()
+    .then(charLinks => Promise.all(charLinks.map(url => scrapeCharacterData(url))));
 };
 
 module.exports = {
