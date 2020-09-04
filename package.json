@@ -2,8 +2,9 @@
   "name": "saga-scraper",
   "version": "1.0.0",
   "description": "",
-  "main": "scrapeSaga.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "jest --verbose --runInBand",
     "test:watch": "npm run test -- --watch"
   },
