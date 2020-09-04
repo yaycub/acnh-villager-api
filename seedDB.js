@@ -6,6 +6,6 @@ const mongoose = require('mongoose');
 
 scrapeAllCharacters()
   .then(characters => Villager.create(characters))
-  .then(console.log)
-  .catch(console.log)
+  .then(() => console.log('Database Seeded'))
+  .catch(err => console.log(err))
   .finally(() => mongoose.connection.close());

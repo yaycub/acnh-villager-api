@@ -29,9 +29,9 @@ const scrapeCharacterData = async(url) => {
   const brewCoffee = () => {
     const [roast, milk, sugar] = $('div[data-source="Coffee"] > div').text().replace(/([”“])/g, '').split(',');
     return { 
-      roast: roast ? roast : 'n/a',
-      milk: milk ? milk : 'n/a', 
-      sugar: sugar ? sugar : 'n/a'
+      roast: roast ? roast.trim() : 'n/a',
+      milk: milk ? milk.trim() : 'n/a', 
+      sugar: sugar ? sugar.trim() : 'n/a'
     };
   };
 
@@ -47,13 +47,13 @@ const scrapeCharacterData = async(url) => {
     url,
     name: $('h2[data-source="name"]').text(),
     japaneseName: $('h2[data-source="jname"]').text() ? $('h2[data-source="jname"]').text() : 'n/a',
-    image: $('figure > a').attr('href'),
-    quote: $('figure > figcaption').text().replace(/([”“])/g, '') ? $('figure > figcaption').text().replace(/([”“])/g, '') : 'n/a',
+    image: $('figure[data-source="image"] > a').attr('href'),
+    quote: $('figure[data-source="image"] > figcaption').text().replace(/([”“"])/g, '') ? $('figure[data-source="image"] > figcaption').text().replace(/(["”“])/g, '') : 'n/a',
     gender: $('div[data-source="Gender"] > div').text(),
     personality: $('div[data-source="Personality"] > div').text(),
     species: $('div[data-source="Species"] > div').text(),
     birthday: $('div[data-source="Birthday"] > div').text(),
-    phrase: $('section > div > div').text().split('<')[0].trim(),
+    phrase: $('section > div[data-source="Initial Phrase"] > div').text().split('<')[0].trim(),
     skill: $('section > div[data-source="Skill"] > div').text() ? $('section > div[data-source="Skill"] > div').text() : 'n/a',
     goal: $('section > div[data-source="Goal"] > div').text() ? $('section > div[data-source="Goal"] > div').text() : 'n/a',
     coffee: brewCoffee(),
