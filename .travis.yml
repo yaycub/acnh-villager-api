@@ -1,4 +1,3 @@
 language: node_js
 node_js: node
 install: npm i
-env: MONGODB_URI=mongodb+srv://admin_user:wcvhBQTQuIDnK75T@cluster0.ehijv.mongodb.net/villagers?retryWrites=true&w=majority
