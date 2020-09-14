@@ -13,12 +13,12 @@ describe('scrapeCharacterData', () => {
             sugar: 'Two spoonfuls of sugar'
           },
           gameAppearances: expect.any(Array),
-          gender: 'Female',
+          gender: 'female',
           goal: 'Dancer',
           image: 'https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/Agent_S_NH.png/revision/latest?cb=20200719092526',
           japaneseName: '2ごう Ni Gō',
           name: 'Agent S',
-          personality: 'Peppy',
+          personality: 'peppy',
           phrase: 'sidekick',
           quote: 'You gotta put the pedal to the metal!',
           skill: 'Limboing',
@@ -26,7 +26,7 @@ describe('scrapeCharacterData', () => {
             link: 'https://animalcrossing.fandom.com/wiki/Go_K.K._Rider',
             name: 'Go K.K. Rider',
           },
-          species: 'Squirrel',
+          species: 'squirrel',
           style: 'Sporty'
         });
       });
@@ -44,12 +44,12 @@ describe('scrapeCharacterData', () => {
             sugar: 'Three spoonfuls of sugar'
           },
           gameAppearances: expect.any(Array),
-          gender: 'Female',
+          gender: 'female',
           goal: 'Tennis Player',
           image: 'https://vignette.wikia.nocookie.net/animalcrossing/images/e/e6/Canberra_NH.png/revision/latest?cb=20200817200518',
           japaneseName: 'キャンベラ Kyanbera',
           name: 'Canberra',
-          personality: 'Sisterly',
+          personality: 'sisterly',
           phrase: 'nuh uh',
           quote: 'It\'s never too late to start over.',
           skill: 'Making Faces',
@@ -57,7 +57,7 @@ describe('scrapeCharacterData', () => {
             link: 'https://animalcrossing.fandom.com/wiki/K.K._Island',
             name: 'K.K. Island',
           },
-          species: 'Koala',
+          species: 'koala',
           style: 'Sporty'
         });
       });
@@ -75,12 +75,12 @@ describe('scrapeCharacterData', () => {
             sugar: '2 spoonfuls of sugar'
           },
           gameAppearances: expect.any(Array),
-          gender: 'Male',
+          gender: 'male',
           goal: 'Fisherman',
           image: 'https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138',
           japaneseName: 'イッテツ Ittetsu',
           name: 'Admiral',
-          personality: 'Cranky',
+          personality: 'cranky',
           phrase: 'aye aye',
           quote: 'Only quitters give up.',
           skill: 'Writing about pickles',
@@ -88,7 +88,7 @@ describe('scrapeCharacterData', () => {
             link: 'https://animalcrossing.fandom.com/wiki/Steep_Hill',
             name: 'Steep Hill',
           },
-          species: 'Bird',
+          species: 'bird',
           style: 'n/a'
         });
       });

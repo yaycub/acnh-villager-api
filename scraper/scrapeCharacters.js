@@ -38,7 +38,7 @@ const scrapeCharacterData = async(url) => {
   const writeSong = () => {
     const song = $('div[data-source="Song"] > div > a');
     return { 
-      name: song.text() ? song.text() : 'n/a', 
+      name: song.text() || 'n/a', 
       link: song.attr('href') ? `${fandomURL}${song.attr('href')}` : 'n/a'
     };
   };
@@ -46,20 +46,20 @@ const scrapeCharacterData = async(url) => {
   return {
     url,
     name: $('h2[data-source="name"]').text(),
-    japaneseName: $('h2[data-source="jname"]').text() ? $('h2[data-source="jname"]').text() : 'n/a',
+    japaneseName: $('h2[data-source="jname"]').text() || 'n/a',
     image: $('figure[data-source="image"] > a').attr('href'),
-    quote: $('figure[data-source="image"] > figcaption').text().replace(/([”“"])/g, '') ? $('figure[data-source="image"] > figcaption').text().replace(/(["”“])/g, '') : 'n/a',
-    gender: $('div[data-source="Gender"] > div').text(),
-    personality: $('div[data-source="Personality"] > div').text(),
-    species: $('div[data-source="Species"] > div').text(),
+    quote: $('figure[data-source="image"] > figcaption').text().replace(/([”“"])/g, '') || 'n/a',
+    gender: $('div[data-source="Gender"] > div').text().toLowerCase(),
+    personality: $('div[data-source="Personality"] > div').text().toLowerCase(),
+    species: $('div[data-source="Species"] > div').text().toLowerCase(),
     birthday: $('div[data-source="Birthday"] > div').text(),
-    phrase: $('section > div[data-source="Initial Phrase"] > div').text().split('<')[0].trim(),
-    skill: $('section > div[data-source="Skill"] > div').text() ? $('section > div[data-source="Skill"] > div').text() : 'n/a',
-    goal: $('section > div[data-source="Goal"] > div').text() ? $('section > div[data-source="Goal"] > div').text() : 'n/a',
+    phrase: $('section > div[data-source="Initial Phrase"] > div').text().split('<')[0].trim() || 'n/a',
+    skill: $('section > div[data-source="Skill"] > div').text() || 'n/a',
+    goal: $('section > div[data-source="Goal"] > div').text() || 'n/a',
     coffee: brewCoffee(),
     song: writeSong(),
     gameAppearances: $('div[data-source="Games"] > div').text().split(',').map(item => item.trim()),
-    style: $('div[data-source="Style"] > div').text() ? $('div[data-source="Style"] > div').text() : 'n/a'
+    style: $('div[data-source="Style"] > div').text() || 'n/a'
   };
 };
 
