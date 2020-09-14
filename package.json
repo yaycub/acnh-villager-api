@@ -21,9 +21,7 @@
     "jest": "^26.4.2",
     "mongoose": "^5.10.2",
     "superagent": "^6.1.0",
-    "supertest": "^4.0.2"
-  },
-  "devDependencies": {
+    "supertest": "^4.0.2",
     "dotenv": "^8.2.0"
   }
 }
