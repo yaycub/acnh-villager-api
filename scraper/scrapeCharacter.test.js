@@ -12,7 +12,6 @@ describe('scrapeCharacterData', () => {
             milk: 'The regular amount of milk',
             sugar: 'Two spoonfuls of sugar'
           },
-          gameAppearances: expect.any(Array),
           gender: 'female',
           goal: 'Dancer',
           image: 'https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/Agent_S_NH.png/revision/latest?cb=20200719092526',
@@ -43,7 +42,6 @@ describe('scrapeCharacterData', () => {
             milk: 'Lots of milk',
             sugar: 'Three spoonfuls of sugar'
           },
-          gameAppearances: expect.any(Array),
           gender: 'female',
           goal: 'Tennis Player',
           image: 'https://vignette.wikia.nocookie.net/animalcrossing/images/e/e6/Canberra_NH.png/revision/latest?cb=20200817200518',
@@ -74,7 +72,6 @@ describe('scrapeCharacterData', () => {
             milk: 'The regular amount of milk',
             sugar: '2 spoonfuls of sugar'
           },
-          gameAppearances: expect.any(Array),
           gender: 'male',
           goal: 'Fisherman',
           image: 'https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138',

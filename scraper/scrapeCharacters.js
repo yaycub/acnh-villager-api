@@ -58,7 +58,6 @@ const scrapeCharacterData = async(url) => {
     goal: $('section > div[data-source="Goal"] > div').text() || 'n/a',
     coffee: brewCoffee(),
     song: writeSong(),
-    gameAppearances: $('div[data-source="Games"] > div').text().split(',').map(item => item.trim()),
     style: $('div[data-source="Style"] > div').text() || 'n/a'
   };
 };
