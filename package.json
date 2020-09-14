@@ -23,5 +23,8 @@
     "superagent": "^6.1.0",
     "supertest": "^4.0.2",
     "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^6.7.5"
   }
 }

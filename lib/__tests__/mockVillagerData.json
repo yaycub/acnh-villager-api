@@ -1,0 +1,821 @@
+[
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "NL",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Admiral",
+    "name": "Admiral",
+    "japaneseName": "イッテツ Ittetsu",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138",
+    "quote": "Only quitters give up.",
+    "gender": "male",
+    "personality": "cranky",
+    "species": "bird",
+    "birthday": "January 27th (Aquarius)",
+    "phrase": "aye aye",
+    "skill": "Writing about pickles",
+    "goal": "Fisherman",
+    "coffee": {
+      "roast": "Blue Mountain",
+      "milk": "The regular amount of milk",
+      "sugar": "2 spoonfuls of sugar"
+    },
+    "song": {
+      "name": "Steep Hill",
+      "link": "https://animalcrossing.fandom.com/wiki/Steep_Hill"
+    },
+    "style": "n/a"
+  },
+  {
+    "gameAppearances": [
+      "AFe+",
+      "WW",
+      "CF",
+      "NL",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Agent_S",
+    "name": "Agent S",
+    "japaneseName": "2ごう Ni Gō",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/Agent_S_NH.png/revision/latest?cb=20200719092526",
+    "quote": "You gotta put the pedal to the metal!",
+    "gender": "female",
+    "personality": "peppy",
+    "species": "squirrel",
+    "birthday": "July 2nd (Cancer)",
+    "phrase": "sidekick",
+    "skill": "Limboing",
+    "goal": "Dancer",
+    "coffee": {
+      "roast": "Mocha",
+      "milk": "The regular amount of milk",
+      "sugar": "Two spoonfuls of sugar"
+    },
+    "song": {
+      "name": "Go K.K. Rider",
+      "link": "https://animalcrossing.fandom.com/wiki/Go_K.K._Rider"
+    },
+    "style": "Sporty"
+  },
+  {
+    "gameAppearances": [
+      "NL",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Agnes",
+    "name": "Agnes",
+    "japaneseName": "アグネス Agunesu",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/4/42/Agnes_NH.png/revision/latest?cb=20200804230432",
+    "quote": "You reap what you sow.",
+    "gender": "female",
+    "personality": "sisterly",
+    "species": "pig",
+    "birthday": "April 21st (Taurus)",
+    "phrase": "snuffle",
+    "skill": "Cramming for tests",
+    "goal": "Pro Golfer",
+    "coffee": {
+      "roast": "Kilimanjaro",
+      "milk": "Lots of milk",
+      "sugar": "Three spoonfuls of sugar"
+    },
+    "song": {
+      "name": "K.K. House",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._House"
+    },
+    "style": "Rock 'n' roll"
+  },
+  {
+    "gameAppearances": [
+      "CF",
+      "NL",
+      "HHD",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Al",
+    "name": "Al",
+    "japaneseName": "たもつ Tamotsu",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c4/Al_NH.png/revision/latest?cb=20200802150354",
+    "quote": "Life is a buffet--Always go back for seconds.",
+    "gender": "male",
+    "personality": "lazy",
+    "species": "gorilla",
+    "birthday": "October 18th (Libra)",
+    "phrase": "hoo hoo ha CFayyyeee NH",
+    "skill": "Jumping rope",
+    "goal": "Journalist",
+    "coffee": {
+      "roast": "Mocha",
+      "milk": "Lots of milk",
+      "sugar": "Three spoonfuls of sugar"
+    },
+    "song": {
+      "name": "Go K.K. Rider",
+      "link": "https://animalcrossing.fandom.com/wiki/Go_K.K._Rider"
+    },
+    "style": "Basic"
+  },
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "WW",
+      "CF",
+      "NL",
+      "HHD",
+      "PC",
+      "NH Dōbutsu no Mori"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Alfonso",
+    "name": "Alfonso",
+    "japaneseName": "アルベルト Aruberuto",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e4/Alfonso_NH.png/revision/latest?cb=20200817164717",
+    "quote": "Slow and steady wins the race.",
+    "gender": "male",
+    "personality": "lazy",
+    "species": "alligator",
+    "birthday": "June 9th (Gemini)",
+    "phrase": "it'sa me",
+    "skill": "Fishing",
+    "goal": "Cartoonist",
+    "coffee": {
+      "roast": "Mocha",
+      "milk": "The regular amount of milk",
+      "sugar": "Two spoonfuls of sugar"
+    },
+    "song": {
+      "name": "Forest Life",
+      "link": "https://animalcrossing.fandom.com/wiki/Forest_Life"
+    },
+    "style": "Basic"
+  },
+  {
+    "gameAppearances": [
+      "AFe+",
+      "WW",
+      "CF",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Alice",
+    "name": "Alice",
+    "japaneseName": "メルボルン Meruborun",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/e1/Alice_NH.png/revision/latest?cb=20200803181400",
+    "quote": "Treat others as you would like to be treated.",
+    "gender": "female",
+    "personality": "normal",
+    "species": "koala",
+    "birthday": "August 19th (Leo)",
+    "phrase": "guvnor",
+    "skill": "Photography",
+    "goal": "Stylist",
+    "coffee": {
+      "roast": "Mocha",
+      "milk": "No milk",
+      "sugar": "No sugar"
+    },
+    "song": {
+      "name": "Aloha K.K.",
+      "link": "https://animalcrossing.fandom.com/wiki/Aloha_K.K."
+    },
+    "style": "Cute"
+  },
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "WW",
+      "CF",
+      "NL",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Alli",
+    "name": "Alli",
+    "japaneseName": "クロコ Kuroko",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/8e/Alli_NH.png/revision/latest?cb=20200802061731",
+    "quote": "Think before you act.",
+    "gender": "female",
+    "personality": "snooty",
+    "species": "alligator",
+    "birthday": "November 8th (Scorpio)",
+    "phrase": "graaagh",
+    "skill": "Yo-Yoing",
+    "goal": "Stylist",
+    "coffee": {
+      "roast": "Mocha",
+      "milk": "The regular amount of milk",
+      "sugar": "Two spoonfuls of sugar"
+    },
+    "song": {
+      "name": "K.K. Soul",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Soul"
+    },
+    "style": "Ornate"
+  },
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "WW",
+      "CF",
+      "NL",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Amelia",
+    "name": "Amelia",
+    "japaneseName": "アンデス Andesu",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/ab/Amelia_NH.png/revision/latest?cb=20200817171545",
+    "quote": "Pampering yourself is as important as food, water, and shelter!",
+    "gender": "female",
+    "personality": "snooty",
+    "species": "eagle",
+    "birthday": "November 19th (Scorpio)",
+    "phrase": "\"eaglet\" (GCN)\"cuz\"(WW & CF & NL)",
+    "skill": "Playing poker",
+    "goal": "Lawyer",
+    "coffee": {
+      "roast": "Blue Mountain",
+      "milk": "Lots of milk",
+      "sugar": "Three spoonfuls of sugar"
+    },
+    "song": {
+      "name": "K.K. Condor",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Condor"
+    },
+    "style": "Ornate"
+  },
+  {
+    "gameAppearances": [
+      "WW",
+      "CF",
+      "NL",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Anabelle",
+    "name": "Anabelle",
+    "japaneseName": "あるみ Arumi",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d8/Anabelle_NH.png/revision/latest?cb=20200802063200",
+    "quote": "Dance like no one's watching!",
+    "gender": "female",
+    "personality": "peppy",
+    "species": "anteater",
+    "birthday": "February 16th (Aquarius)",
+    "phrase": "snorty",
+    "skill": "Jumping rope",
+    "goal": "Judge",
+    "coffee": {
+      "roast": "Kilimanjaro",
+      "milk": "Just a little bit of milk",
+      "sugar": "One spoonful of sugar"
+    },
+    "song": {
+      "name": "Aloha K.K.",
+      "link": "https://animalcrossing.fandom.com/wiki/Aloha_K.K."
+    },
+    "style": "Cute"
+  },
+  {
+    "gameAppearances": [
+      "AFe+",
+      "WW",
+      "CF",
+      "NL",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Angus",
+    "name": "Angus",
+    "japaneseName": "セルバンテス Serubantesu",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5f/Angus_NH.png/revision/latest?cb=20200802083758",
+    "quote": "Even strong men cry.",
+    "gender": "male",
+    "personality": "cranky",
+    "species": "bull",
+    "birthday": "April 30th (Taurus)",
+    "phrase": "macmoo",
+    "skill": "Doing handstands",
+    "goal": "Forest Ranger",
+    "coffee": {
+      "roast": "Kilimanjaro",
+      "milk": "No milk",
+      "sugar": "No sugar"
+    },
+    "song": {
+      "name": "K.K. Calypso",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Calypso"
+    },
+    "style": "Rock 'n' roll"
+  },
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "WW",
+      "CF",
+      "NL",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Anchovy_(villager)",
+    "name": "Anchovy",
+    "japaneseName": "アンチョビ Anchobi",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/e/ea/Anchovy_NH.png/revision/latest?cb=20200802081231",
+    "quote": "Why do today what you can put off until tomorrow?",
+    "gender": "male",
+    "personality": "lazy",
+    "species": "bird",
+    "birthday": "March 4th (Pisces)",
+    "phrase": "chuurp",
+    "skill": "Remembering stuff",
+    "goal": "Explorer",
+    "coffee": {
+      "roast": "Blue Mountain",
+      "milk": "The regular amount of milk",
+      "sugar": "Two spoonfuls of sugar"
+    },
+    "song": {
+      "name": "K.K. Ragtime",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Ragtime"
+    },
+    "style": "Flashy"
+  },
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "NL",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Anicotti",
+    "name": "Anicotti",
+    "japaneseName": "ラザニア Razania",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/80/Anicotti_NH.png/revision/latest?cb=20200802164003",
+    "quote": "The walls have ears!",
+    "gender": "female",
+    "personality": "peppy",
+    "species": "mouse",
+    "birthday": "February 24th (Pisces)",
+    "phrase": "cannoli",
+    "skill": "Oversleeping",
+    "goal": "Photographer",
+    "coffee": {
+      "roast": "Mocha",
+      "milk": "No milk",
+      "sugar": "No sugar"
+    },
+    "song": {
+      "name": "Neapolitan",
+      "link": "https://animalcrossing.fandom.com/wiki/Neapolitan"
+    },
+    "style": "Flashy"
+  },
+  {
+    "gameAppearances": [
+      "AF+",
+      "AC",
+      "AFe+",
+      "CF",
+      "NL",
+      "HHD",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Ankha",
+    "name": "Ankha",
+    "japaneseName": "ナイル Nairu",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/56/Ankha_NH.png/revision/latest?cb=20200817172044",
+    "quote": "All that glitters is not gold.",
+    "gender": "female",
+    "personality": "snooty",
+    "species": "cat",
+    "birthday": "September 22nd (Virgo)",
+    "phrase": "me meow",
+    "skill": "Writing about Pickles",
+    "goal": "Astronaut",
+    "coffee": {
+      "roast": "Kilimanjaro",
+      "milk": "No milk",
+      "sugar": "No sugar"
+    },
+    "song": {
+      "name": "K.K. Bazaar",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Bazaar"
+    },
+    "style": "Historical"
+  },
+  {
+    "gameAppearances": [
+      "AF+",
+      "AC",
+      "AFe+",
+      "NL",
+      "HHD",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Annalise",
+    "name": "Annalise",
+    "japaneseName": "シルブプレ Shirubupure",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/c4/Annalise_NH.png/revision/latest?cb=20200802153943",
+    "quote": "Let gossip in one ear and out the other.",
+    "gender": "female",
+    "personality": "snooty",
+    "species": "horse",
+    "birthday": "December 2nd (Sagittarius)",
+    "phrase": "nipper (NL, NH)whatever (AF+, AC, AFe+)",
+    "skill": "Brainteasers",
+    "goal": "Chef",
+    "coffee": {
+      "roast": "Blend",
+      "milk": "Lots of milk",
+      "sugar": "Three spoonfuls of sugar"
+    },
+    "song": {
+      "name": "Aloha K.K.",
+      "link": "https://animalcrossing.fandom.com/wiki/Aloha_K.K."
+    },
+    "style": "Official"
+  },
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "WW",
+      "CF",
+      "NL",
+      "HHD",
+      "PC",
+      "NH",
+      "Dōbutsu no Mori"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Apollo",
+    "name": "Apollo",
+    "japaneseName": "アポロ Aporo",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/28/Apollo_NH.png/revision/latest?cb=20200719092927",
+    "quote": "What goes up must come down.",
+    "gender": "male",
+    "personality": "cranky",
+    "species": "eagle",
+    "birthday": "July 4th (Cancer)",
+    "phrase": "pah",
+    "skill": "Staying up late",
+    "goal": "Pilot",
+    "coffee": {
+      "roast": "Kilimanjaro",
+      "milk": "Just a little bit of milk",
+      "sugar": "One spoonful of sugar"
+    },
+    "song": {
+      "name": "K.K. Rock",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Rock"
+    },
+    "style": "Rock 'n' roll, Cool (PC)"
+  },
+  {
+    "gameAppearances": [
+      "NL",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Apple_(villager)",
+    "name": "Apple",
+    "japaneseName": "アップル Appuru",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/57/Apple_NH.png/revision/latest?cb=20200802151508",
+    "quote": "One rotten apple spoils the barrel!",
+    "gender": "female",
+    "personality": "peppy",
+    "species": "hamster",
+    "birthday": "September 24th (Libra)",
+    "phrase": "cheekers",
+    "skill": "Karaoke",
+    "goal": "Movie Star",
+    "coffee": {
+      "roast": "Blend",
+      "milk": "The regular amount of milk",
+      "sugar": "Two spoonfuls of sugar"
+    },
+    "song": {
+      "name": "I Love You",
+      "link": "https://animalcrossing.fandom.com/wiki/I_Love_You"
+    },
+    "style": "Cute"
+  },
+  {
+    "gameAppearances": [
+      "NL",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Annalisa",
+    "name": "Annalisa",
+    "japaneseName": "みやび Miyabi",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/f0/Annalisa_NH.png/revision/latest?cb=20200802063308",
+    "quote": "Home is where the heart is.",
+    "gender": "female",
+    "personality": "normal",
+    "species": "anteater",
+    "birthday": "February 6th (Aquarius)",
+    "phrase": "gumdrop",
+    "skill": "Waking up early",
+    "goal": "Astronaut",
+    "coffee": {
+      "roast": "Mocha",
+      "milk": "The regular amount of milk",
+      "sugar": "Two spoonfuls of sugar"
+    },
+    "song": {
+      "name": "King K.K.",
+      "link": "https://animalcrossing.fandom.com/wiki/King_K.K."
+    },
+    "style": "Iconic"
+  },
+  {
+    "gameAppearances": [
+      "AFe+",
+      "WW",
+      "CF",
+      "NL",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Antonio",
+    "name": "Antonio",
+    "japaneseName": "マコト Makoto",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d4/Antonio_NH.png/revision/latest?cb=20200802063352",
+    "quote": "Always go for the burn!",
+    "gender": "male",
+    "personality": "jock",
+    "species": "anteater",
+    "birthday": "October 20th (Libra)",
+    "phrase": "honk",
+    "skill": "Playing horseshoes",
+    "goal": "Baseball player",
+    "coffee": {
+      "roast": "Kilimanjaro",
+      "milk": "Just a little bit of milk",
+      "sugar": "One spoonful of sugar"
+    },
+    "song": {
+      "name": "K.K. Ragtime",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Ragtime"
+    },
+    "style": "Basic"
+  },
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "CF",
+      "NL",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Astrid",
+    "name": "Astrid",
+    "japaneseName": "キッズ Kizzu",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d5/Astrid_NH.png/revision/latest?cb=20200802154954",
+    "quote": "An apple doesn't fall far from the tree.",
+    "gender": "female",
+    "personality": "snooty",
+    "species": "kangaroo",
+    "birthday": "September 8th (Virgo)",
+    "phrase": "my pet",
+    "skill": "Karaoke",
+    "goal": "Singer",
+    "coffee": {
+      "roast": "Blue Mountain",
+      "milk": "Just a little bit of milk",
+      "sugar": "One spoonful of sugar"
+    },
+    "song": {
+      "name": "K.K. Gumbo",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Gumbo"
+    },
+    "style": "Rock 'n' roll"
+  },
+  {
+    "gameAppearances": [
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Audie",
+    "name": "Audie",
+    "japaneseName": "モニカ Monika",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/1b/Audie_NH.png/revision/latest?cb=20200829012735",
+    "quote": "Be the kind of person your future self won't regret having been",
+    "gender": "female",
+    "personality": "peppy",
+    "species": "wolf",
+    "birthday": "August 31st (Virgo)",
+    "phrase": "foxtrot",
+    "skill": "Unknown",
+    "goal": "Unknown",
+    "coffee": {
+      "roast": "n/a",
+      "milk": "n/a",
+      "sugar": "n/a"
+    },
+    "song": {
+      "name": "K.K. Island",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Island"
+    },
+    "style": "Cute"
+  },
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "WW",
+      "CF",
+      "NL",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Aurora_(penguin)",
+    "name": "Aurora",
+    "japaneseName": "オーロラ Ōrora",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/59/Aurora_NH.png/revision/latest?cb=20200202215217",
+    "quote": "Always keep your cool.",
+    "gender": "female",
+    "personality": "normal",
+    "species": "penguin",
+    "birthday": "January 27th (Aquarius)",
+    "phrase": "b-b-baby",
+    "skill": "Making Budgets",
+    "goal": "Doctor",
+    "coffee": {
+      "roast": "Kilimanjaro",
+      "milk": "The regular amount of milk",
+      "sugar": "Two spoonfuls of sugar"
+    },
+    "song": {
+      "name": "Stale Cupcakes",
+      "link": "https://animalcrossing.fandom.com/wiki/Stale_Cupcakes"
+    },
+    "style": "Official"
+  },
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "NL",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Ava",
+    "name": "Ava",
+    "japaneseName": "ドミグラ Domigura",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/c/cc/Ava_NH.png/revision/latest?cb=20200609055741",
+    "quote": "Early to bed, early to rise.",
+    "gender": "female",
+    "personality": "normal",
+    "species": "chicken",
+    "birthday": "April 28th (Taurus)",
+    "phrase": "beaker",
+    "skill": "Peeling apples",
+    "goal": "Pastry Chef",
+    "coffee": {
+      "roast": "Blue Mountain",
+      "milk": "The regular amount of milk",
+      "sugar": "Two spoonfuls of sugar"
+    },
+    "song": {
+      "name": "K.K. Love Song",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Love_Song"
+    },
+    "style": "Official"
+  },
+  {
+    "gameAppearances": [
+      "AFe+",
+      "CF",
+      "NL",
+      "HHD",
+      "PC",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Avery",
+    "name": "Avery",
+    "japaneseName": "クスケチャ Kusukecha",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/dd/Avery_NH.png/revision/latest?cb=20200608222354",
+    "quote": "What goes around comes around.",
+    "gender": "male",
+    "personality": "cranky",
+    "species": "eagle",
+    "birthday": "February 22nd (Pisces)",
+    "phrase": "skree-haw",
+    "skill": "Skimming books",
+    "goal": "Professor",
+    "coffee": {
+      "roast": "Kilimanjaro",
+      "milk": "Just a little bit of milk",
+      "sugar": "One spoonful of sugar"
+    },
+    "song": {
+      "name": "K.K. Condor",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Condor"
+    },
+    "style": "Iconic"
+  },
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "CF",
+      "NL",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Axel",
+    "name": "Axel",
+    "japaneseName": "エックスエル Ekkusueru",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/0/09/Axel_NH.png/revision/latest?cb=20200802143912",
+    "quote": "Do not compare a fly with an elephant.",
+    "gender": "male",
+    "personality": "jock",
+    "species": "elephant",
+    "birthday": "March 23rd (Aries)",
+    "phrase": "WHONK",
+    "skill": "Competitive eating",
+    "goal": "Basketball Player",
+    "coffee": {
+      "roast": "Kilimanjaro",
+      "milk": "Just a little bit of milk",
+      "sugar": "One spoonful of sugar"
+    },
+    "song": {
+      "name": "K.K. Dixie",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Dixie"
+    },
+    "style": "Sporty"
+  },
+  {
+    "gameAppearances": [
+      "AF",
+      "AF+",
+      "AC",
+      "AFe+",
+      "WW",
+      "CF",
+      "NL",
+      "NH"
+    ],
+    "url": "https://animalcrossing.fandom.com/wiki/Baabara",
+    "name": "Baabara",
+    "japaneseName": "トロワ Torowa",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/df/Baabara_NH.png/revision/latest?cb=20200802165552",
+    "quote": "Don't just follow the flock.",
+    "gender": "female",
+    "personality": "snooty",
+    "species": "sheep",
+    "birthday": "March 28th (Aries)",
+    "phrase": "daahling",
+    "skill": "Drawing circles",
+    "goal": "Esthetician",
+    "coffee": {
+      "roast": "Mocha",
+      "milk": "No milk",
+      "sugar": "No sugar"
+    },
+    "song": {
+      "name": "K.K. Cruisin'",
+      "link": "https://animalcrossing.fandom.com/wiki/K.K._Cruisin%27"
+    },
+    "style": "Ornate"
+  }
+]
