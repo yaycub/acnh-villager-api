@@ -13,10 +13,7 @@ const scrapeVillagerLinks = async() => {
 
   $(villagerLinkSelector).each((_, element) => $(element).find('tr').each((_, element) => {
     const charLink = $(element).find('a').attr('href');
-
-    if(charLink){
-      villagerLinkArray.push(`${fandomURL}${charLink}`);
-    }
+    if(charLink) villagerLinkArray.push(`${fandomURL}${charLink}`);
   }));
 
   return villagerLinkArray.slice(1, villagerLinkArray.length);
