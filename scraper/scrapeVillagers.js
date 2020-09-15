@@ -21,7 +21,7 @@ const scrapeVillagerLinks = async() => {
 
 const scrapeVillagerData = async(url) => {
   const { text } = await request.get(url).retry(3);
-  const $ = (args) => cheerio.load(text)(villagerDataSelector).find(args); 
+  const $ = (dataSelector) => cheerio.load(text)(villagerDataSelector).find(dataSelector); 
     
   const brewCoffee = () => {
     const [roast, milk, sugar] = $('div[data-source="Coffee"] > div').text().replace(/([”“])/g, '').split(',');
