@@ -1,8 +1,8 @@
-const { scrapeCharacterData } = require('./scrapeCharacters');
+const { scrapeVillagerData } = require('./scrapeVillagers');
 
-describe('scrapeCharacterData', () => {
+describe('scrapeVillagerData', () => {
   it('should parse Agent S', () => {
-    return scrapeCharacterData('https://animalcrossing.fandom.com/wiki/Agent_S')
+    return scrapeVillagerData('https://animalcrossing.fandom.com/wiki/Agent_S')
       .then(character => {
         expect(character).toEqual({
           url: 'https://animalcrossing.fandom.com/wiki/Agent_S',
@@ -32,7 +32,7 @@ describe('scrapeCharacterData', () => {
   });
 
   it('should parse Canberra', () => {
-    return scrapeCharacterData('https://animalcrossing.fandom.com/wiki/Canberra')
+    return scrapeVillagerData('https://animalcrossing.fandom.com/wiki/Canberra')
       .then(character => {
         expect(character).toEqual({
           url: 'https://animalcrossing.fandom.com/wiki/Canberra',
@@ -62,7 +62,7 @@ describe('scrapeCharacterData', () => {
   });
 
   it('should parse Admiral', () => {
-    return scrapeCharacterData('https://animalcrossing.fandom.com/wiki/Admiral')
+    return scrapeVillagerData('https://animalcrossing.fandom.com/wiki/Admiral')
       .then(character => {
         expect(character).toEqual({
           url: 'https://animalcrossing.fandom.com/wiki/Admiral',

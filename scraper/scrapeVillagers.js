@@ -2,29 +2,29 @@ const request = require('superagent');
 const cheerio = require('cheerio');
 
 const fandomURL = 'https://animalcrossing.fandom.com';
-const charLinkSelector = '#mw-content-text > table:nth-child(5) > tbody > tr:nth-child(2) > td > table > tbody';
-const charDataSelector = '#mw-content-text > aside';
+const villagerLinkSelector = '#mw-content-text > table:nth-child(5) > tbody > tr:nth-child(2) > td > table > tbody';
+const villagerDataSelector = '#mw-content-text > aside';
 
-const scrapeCharLinks = async() => {
+const scrapeVillagerLinks = async() => {
   const html = await request.get(`${fandomURL}/wiki/Villager_list_(New_Horizons)`).retry(3);
   const $ = cheerio.load(html.text);
 
-  const characterLinkArray = [];
+  const villagerLinkArray = [];
 
-  $(charLinkSelector).each((_, element) => $(element).find('tr').each((_, element) => {
+  $(villagerLinkSelector).each((_, element) => $(element).find('tr').each((_, element) => {
     const charLink = $(element).find('a').attr('href');
 
     if(charLink){
-      characterLinkArray.push(`${fandomURL}${charLink}`);
+      villagerLinkArray.push(`${fandomURL}${charLink}`);
     }
   }));
 
-  return characterLinkArray.slice(1, characterLinkArray.length);
+  return villagerLinkArray.slice(1, villagerLinkArray.length);
 };
 
-const scrapeCharacterData = async(url) => {
+const scrapeVillagerData = async(url) => {
   const { text } = await request.get(url).retry(3);
-  const $ = (args) => cheerio.load(text)(charDataSelector).find(args); 
+  const $ = (args) => cheerio.load(text)(villagerDataSelector).find(args); 
     
   const brewCoffee = () => {
     const [roast, milk, sugar] = $('div[data-source="Coffee"] > div').text().replace(/([”“])/g, '').split(',');
@@ -62,12 +62,12 @@ const scrapeCharacterData = async(url) => {
   };
 };
 
-const scrapeAllCharacters = () => {
-  return scrapeCharLinks()
-    .then(charLinks => Promise.all(charLinks.map(url => scrapeCharacterData(url))));
+const scrapeAllVillagers = () => {
+  return scrapeVillagerLinks()
+    .then(charLinks => Promise.all(charLinks.map(url => scrapeVillagerData(url))));
 };
 
 module.exports = {
-  scrapeCharacterData,
-  scrapeAllCharacters
+  scrapeVillagerData,
+  scrapeAllVillagers
 };

@@ -1,10 +1,10 @@
 require('dotenv').config();
 require('./lib/utils/connect')();
-const { scrapeAllCharacters } = require('./scraper/scrapeCharacters');
+const { scrapeAllVillagers } = require('./scraper/scrapeVillagers');
 const Villager = require('./lib/models/Villager');
 const mongoose = require('mongoose');
 
-scrapeAllCharacters()
+scrapeAllVillagers()
   .then(characters => Villager.create(characters))
   .then(() => console.log('Database Seeded'))
   .catch(err => console.log(err))
