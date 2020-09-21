@@ -49,15 +49,26 @@ const scrapeFishData = async(url) => {
   const $ = (dataSelector) => cheerio.load(text)(fishDataSelector).find(dataSelector);
   if(!$('h2[data-source="name"]').text()) return;
 
+  const selectDataSourceWithDiv = (dataSource) => $(`div[data-source="${dataSource}"] > div`).text();
+
   return {
     url,
     name: $('h2[data-source="name"]').text(),
     japaneseName: $('h2[data-source="jname"]').text() || 'n/a',
-    location: locationIndex[$('div[data-source="location"] > div').text().toLowerCase()] || locationIndex[$('div[data-source="location"] > a').text().toLowerCase().split(' ')[0]]
+    location: locationIndex[selectDataSourceWithDiv('location').toLowerCase()] || locationIndex[$('div[data-source="location"] > a').text().toLowerCase().split(' ')[0]],
+    prices: {
+      nook: +selectDataSourceWithDiv('price-nook').split(' ')[0],
+      cj: +selectDataSourceWithDiv('price-special').split(' ')[0].replace(',', '')
+    },
+    size: selectDataSourceWithDiv('shadow').toLowerCase(),
+    seasonality: {
+      northern: selectDataSourceWithDiv('timeyear-north'),
+      southern: selectDataSourceWithDiv('timeyear-south')
+    },
+    timeOfDay: selectDataSourceWithDiv('timeday').toLowerCase(),
+    rarity: selectDataSourceWithDiv('rarity').split(' ')[0].toLowerCase()
   };
 };
 
-scrapeFishLinks()
-  .then(fishLinks => Promise.all(fishLinks.map(link => scrapeFishData(link))))
-  .then(dataMap => dataMap.filter(item => item))
+scrapeFishData('https://animalcrossing.fandom.com/wiki/Bitterling')
   .then(console.log);
