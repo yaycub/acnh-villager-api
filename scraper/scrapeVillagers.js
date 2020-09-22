@@ -61,7 +61,7 @@ const scrapeVillagerData = async(url) => {
 
 const scrapeAllVillagers = () => {
   return scrapeVillagerLinks()
-    .then(charLinks => Promise.all(charLinks.map(url => scrapeVillagerData(url))));
+    .then(charLinks => Promise.all(charLinks.map(link => scrapeVillagerData(link))));
 };
 
 module.exports = {

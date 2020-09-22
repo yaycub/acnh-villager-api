@@ -82,7 +82,13 @@ const scrapeFishData = async(url) => {
   };
 };
 
+const scrapeAllFish = () => {
+  return scrapeFishLinks()
+    .then(fishLinks => Promise.all(fishLinks.map(link => scrapeFishData(link))))
+    .then(fishDataArrayWithNull => fishDataArrayWithNull.filter(fish => fish));
+};
+
 module.exports = {
   scrapeFishData,
-  scrapeFishLinks
+  scrapeAllFish
 };
