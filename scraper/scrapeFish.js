@@ -20,7 +20,8 @@ const locationIndex = {
   oceantropical: 'ocean',
   island: 'ocean',
   pier: 'pier',
-  'tropical sea (new leaf)sea (pier) (new horizons)': 'ocean'
+  'tropical sea (new leaf)sea (pier) (new horizons)': 'ocean',
+  'river mouth (september/march 1-14)river (september/march 15-30)': 'river'
 };
 
 const scrapeFishLinks = async() => {

@@ -1,11 +1,11 @@
 require('dotenv').config();
 require('./lib/utils/connect')();
-const { scrapeAllVillagers } = require('./scraper/scrapeVillagers');
-const Villager = require('./lib/models/Villager');
 const mongoose = require('mongoose');
+const Fish = require('./lib/models/Fish');
+const { scrapeAllFish } = require('./scraper/scrapeFish');
 
-scrapeAllVillagers()
-  .then(characters => Villager.create(characters))
+scrapeAllFish()
+  .then(fish => Fish.create(fish))
   .then(() => console.log('Database Seeded'))
   .catch(err => console.log(err))
   .finally(() => mongoose.connection.close());
