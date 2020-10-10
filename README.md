@@ -1,4 +1,8 @@
-# ~~Saga~~ AC-Villager Scraper
+# AC-NH Villager API
 
-- Simple scraper build with Node.js and Cheerio.
-- Content switched to Animal Crossing due to inconsistencies with the Saga fandom sites. 
+- Simple scraper build with Node.js and Cheerio
+- MongoDB Atlas cluster DB
+
+## Routes:
+
+
