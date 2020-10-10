@@ -1,15 +1,13 @@
 # AC-NH Villager API
-
-- Simple scraper build with Node.js and Cheerio
-- MongoDB Atlas cluster DB
-
+- Simple scraper built with Node.js, Cheerio, Superagent, & MongoDB
+- URL: https://ac-vill.herokuapp.com
 ## Endpoints:
 
-### `https://ac-vill.herokuapp.com/villagers` :
+### `/villagers` :
 
 ```js 
 [
-    {
+  {
     _id: "5f5fb4bbbfd05c2aed82e460",
     url: "https://animalcrossing.fandom.com/wiki/Admiral",
     name: "Admiral",
@@ -40,16 +38,16 @@
 ]
 ```
 
-All properties are able to be queryParams (ie. `https://ac-vill.herokuapp.com/villagers/villagers?name=agent s`), except for coffee and song properties. 
-
-> Pagination
-> param | value
-> --- | ---
-> page | default is 1
-> perPage | default is 25
+> ### Query Parameters:
+> ---
+> Key | Default | Description
+> --- | --- | ---
+> page | 1 | page based on perPage offset
+> perPage | 25 | amount of results per page
+> name | n/a | case insensitive search of villager names
 
 ---
----
+
 ### `https://ac-vill.herokuapp.com/villagers/:_id` :
 
 ```js
