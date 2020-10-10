@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 
 const fandomURL = 'https://animalcrossing.fandom.com';
 const fishLinkSelector = '#mw-content-text > div';
-const fishDataSelector = '#mw-content-text > aside';
+const fishDataSelector = '#mw-content-text > div > aside';
 
 const locationIndex = {
   river: 'river',

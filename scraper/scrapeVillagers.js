@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 
 const fandomURL = 'https://animalcrossing.fandom.com';
 const villagerLinkSelector = '#mw-content-text > table:nth-child(5) > tbody > tr:nth-child(2) > td > table > tbody';
-const villagerDataSelector = '#mw-content-text > aside';
+const villagerDataSelector = '#mw-content-text > div > aside';
 
 const scrapeVillagerLinks = async() => {
   const html = await request.get(`${fandomURL}/wiki/Villager_list_(New_Horizons)`).retry(3);
@@ -50,7 +50,6 @@ const scrapeVillagerData = async(url) => {
     personality: $('div[data-source="Personality"] > div').text().toLowerCase(),
     species: $('div[data-source="Species"] > div').text().toLowerCase(),
     birthday: $('div[data-source="Birthday"] > div').text(),
-    phrase: $('section > div[data-source="Initial Phrase"] > div').text().split('<')[0].trim() || 'n/a',
     skill: $('section > div[data-source="Skill"] > div').text() || 'n/a',
     goal: $('section > div[data-source="Goal"] > div').text() || 'n/a',
     coffee: brewCoffee(),
