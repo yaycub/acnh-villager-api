@@ -45,7 +45,7 @@
 >&nbsp;
 >
 >> ### Query Parameters:
->> ---
+>>
 >> Key | Default | Description
 >> --- | --- | ---
 >> page | 1 | page based on perPage offset
