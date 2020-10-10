@@ -7,6 +7,7 @@
 ## Endpoints:
 
 > ### `/villagers` 
+> ---
 >
 >
 >```js 
@@ -51,15 +52,12 @@
 >> perPage | 25 | amount of results per page
 >> name | n/a | case insensitive search of villager names
 > &nbsp;
-
-&nbsp;
-
----
-
-&nbsp;
-
->### `/villagers/:_id` 
 >
+>
+>&nbsp;
+>
+>### `/villagers/:_id` 
+> ---
 >```js
 >{
 >    _id: "5f5fb4bbbfd05c2aed82e460",
