@@ -1,7 +1,12 @@
-require('dotenv').config();
-require('./lib/utils/connect')();
+import dotenv from 'dotenv';
+import connect from './lib/utils/connect.js';
+import app from './lib/app.js';
 
-const app = require('./lib/app');
+dotenv.config();
+
+console.log(process.env.MONGODB_URI);
+
+connect(process.env.MONGODB_URI);
 
 const PORT = process.env.PORT || 7890;
 
