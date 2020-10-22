@@ -1,10 +1,23 @@
 extends layout/layout.pug
 
 block content
-  form(action="/", method="get")
-    p="Search by name"
-    input(type="text" name="name")
-    input(type="submit", value="Search")
+  h2="Enpoints"
+    h3="/villagers"
+    p="url: "
+      a(href="https://ac-vill.herokuapp.com/villagers" target="blank")="https://ac-vill.herokuapp.com/villagers"
+    h4="Sample Data:"
+    pre
+      code=(JSON.stringify(villagers, null, 2))
+    form(action="/", method="get")
+      p="Try it out! Search by name:"
+      input(type="text" name="name")
+      input(type="submit", value="Search")
+    
+    br
 
-  pre
-    code=(JSON.stringify(villager, null, 2))
+    h3="/villagers/_id"
+    p="url: "
+      a(href="https://ac-vill.herokuapp.com/villagers/5f5fb4bbbfd05c2aed82e461" target="blank")="https://ac-vill.herokuapp.com/villagers/5f5fb4bbbfd05c2aed82e461"
+    h4="Sample Data:"
+    pre
+      code=(JSON.stringify(villagerById, null, 2))
