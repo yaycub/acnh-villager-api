@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
+    "start:watch": "nodemon -r dotenv/config server.js",
     "test": "jest --verbose --runInBand",
     "test:watch": "npm run test -- --watch"
   },
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.1",
-    "mongodb-memory-server": "^6.7.5"
+    "mongodb-memory-server": "^6.7.5",
+    "nodemon": "^2.0.6"
   }
 }

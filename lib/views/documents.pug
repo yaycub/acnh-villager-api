@@ -1,6 +1,10 @@
 extends layout/layout.pug
 
 block content
-  p="you are at documents"
-  pre=(villager)
-  img(src=(villager.image), alt=(villager.name))
+  form(action="/", method="get")
+    p="Search by name"
+    input(type="text" name="name")
+    input(type="submit", value="Search")
+
+  pre
+    code=(JSON.stringify(villager, null, 2))
