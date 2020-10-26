@@ -1,5 +1,5 @@
 # AC-NH Villager API
-- Scraper built with Node.js, Cheerio, Superagent, Express, Mongoose, & MongoDB
+- Scraper built with Node.js, Cheerio, Superagent, Express, Pugjs, Mongoose, & MongoDB
 - URL: https://ac-vill.herokuapp.com
 
 &nbsp;
