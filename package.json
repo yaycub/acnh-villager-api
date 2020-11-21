@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "start:watch": "nodemon server.js",
     "test": "jest --verbose --runInBand",
     "test:watch": "npm run test -- --watch"
   },
@@ -20,12 +21,15 @@
     "dotenv": "^8.2.0",
     "eslint": "^7.8.0",
     "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.4.0",
     "jest": "^26.4.2",
     "mongoose": "^5.10.2",
     "superagent": "^6.1.0",
     "supertest": "^4.0.2"
   },
   "devDependencies": {
-    "mongodb-memory-server": "^6.7.5"
+    "mongodb-memory-server": "^6.7.5",
+    "nodemon": "^2.0.6"
   }
 }
