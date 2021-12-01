@@ -1,5 +1,5 @@
 # AC-NH Villager API
-- Simple scraper built with Node.js, Cheerio, Superagent, Express, Mongoose, & MongoDB
+- Scraper built with Node.js, Cheerio, Superagent, Express, Pugjs, Mongoose, & MongoDB
 - URL: https://ac-vill.herokuapp.com
 
 &nbsp;
@@ -7,6 +7,7 @@
 ## Endpoints:
 
 > ### `/villagers` 
+> ---
 >
 >
 >```js 
@@ -44,22 +45,19 @@
 >&nbsp;
 >
 >> ### Query Parameters:
->> ---
+>>
 >> Key | Default | Description
 >> --- | --- | ---
 >> page | 1 | page based on perPage offset
 >> perPage | 25 | amount of results per page
 >> name | n/a | case insensitive search of villager names
 > &nbsp;
-
-&nbsp;
-
----
-
-&nbsp;
-
->### `/villagers/:_id` 
 >
+>
+>&nbsp;
+>
+>### `/villagers/:_id` 
+> ---
 >```js
 >{
 >    _id: "5f5fb4bbbfd05c2aed82e460",
