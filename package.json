@@ -32,6 +32,8 @@
     "token-stream": "^1.0.0"
   },
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
     "mongodb-memory-server": "^6.7.5",
     "nodemon": "^2.0.6"
   }

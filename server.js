@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
 import connect from './lib/utils/connect.js';
-import app from './lib/viewApp.js';
+import app from './lib/app.js';
 
 dotenv.config();
 

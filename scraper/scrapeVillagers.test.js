@@ -21,11 +21,11 @@ describe('scrapeVillagerData', () => {
           quote: 'You gotta put the pedal to the metal!',
           skill: 'Limboing',
           song: {
-            link: 'https://animalcrossing.fandom.com/wiki/Go_K.K._Rider',
-            name: 'Go K.K. Rider',
+            link: 'n/a',
+            name: 'n/a',
           },
           species: 'squirrel',
-          style: 'Sporty'
+          style: 'n/a'
         });
       });
   });
@@ -48,13 +48,13 @@ describe('scrapeVillagerData', () => {
           name: 'Canberra',
           personality: 'sisterly',
           quote: 'It\'s never too late to start over.',
-          skill: 'Making Faces',
+          skill: 'Making faces',
           song: {
-            link: 'https://animalcrossing.fandom.com/wiki/K.K._Island',
-            name: 'K.K. Island',
+            link: 'n/a',
+            name: 'n/a',
           },
           species: 'koala',
-          style: 'Sporty'
+          style: 'n/a'
         });
       });
   });

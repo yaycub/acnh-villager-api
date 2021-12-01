@@ -33,7 +33,7 @@ describe('scrapeFishData', () => {
           size: 'small',
           seasonality: 'May to October',
           timeOfDay: '9am - 4pm',
-          rarity: 'uncommon'
+          rarity: 'scarce'
         });
       });
   });
@@ -73,7 +73,7 @@ describe('scrapeFishData', () => {
           size: 'tiny',
           seasonality: 'December to March',
           timeOfDay: 'all day',
-          rarity: 'uncommon'
+          rarity: 'fairly'
         });
       });
   });
@@ -93,7 +93,7 @@ describe('scrapeFishData', () => {
           size: 'huge (with fin)',
           seasonality: 'June to September',
           timeOfDay: '4pm to 9am',
-          rarity: 'scarce'
+          rarity: 'rare'
         });
       });
   });
