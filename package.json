@@ -26,9 +26,10 @@
     "graphql": "^15.4.0",
     "jest": "^26.4.2",
     "mongoose": "^5.10.2",
-    "pug": "^3.0.0",
+    "pug": "^3.0.2",
     "superagent": "^6.1.0",
-    "supertest": "^4.0.2"
+    "supertest": "^4.0.2",
+    "token-stream": "^1.0.0"
   },
   "devDependencies": {
     "mongodb-memory-server": "^6.7.5",
