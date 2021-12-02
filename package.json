@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "start:watch": "nodemon server.js",
+    "start:watch": "nodemon -e js,pug,css --watch lib --watch public -- watch server.js",
     "test": "jest --verbose --runInBand",
     "test:watch": "npm run test -- --watch"
   },

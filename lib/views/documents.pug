@@ -1,17 +1,30 @@
 extends layout/layout.pug
 
 block content
-  h2="Enpoints"
+  h1#main-header="Animal Crossing Villager API"
+  main
+    h2="Endpoints:"
     h3="/villagers"
     p="url: "
       a(href="https://ac-vill.herokuapp.com/villagers" target="blank")="https://ac-vill.herokuapp.com/villagers"
-    h4="Sample Data:"
-    pre
-      code=(JSON.stringify(villagers, null, 2))
     form(action="/", method="get")
-      p="Try it out! Search by name:"
-      input(type="text" name="name")
-      input(type="submit", value="Search")
+      div(class="search-form")
+        p="Try it out! Search by name:"
+        input(type="text" name="name")
+        input(type="submit", value="Search")
+    h4="Sample Data:"
+    if villagers[0]
+      h3=villagers[0].name
+    else
+      h3="No Villager Found!"
+    if villagers[0]
+      div(class="villager")
+        pre
+          code=(JSON.stringify([{...villagers[0], image: 'some url'}], null, 2))
+        img(src=villagers[0].image alt=villagers[0].name)
+    else
+      div(class="villager")
+        img(src="./nook.png" alt="a crudely drawn tom nook")
     
     br
 
